@@ -1,6 +1,8 @@
 name: release
-# on: pull_request
+
 on:
+  workflow_dispatch:
+
   push:
     tags:
       - '*'
